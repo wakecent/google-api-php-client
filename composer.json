@@ -8,7 +8,7 @@
     "require": {
         "php": ">=5.4",
         "google/auth": "^0.11",
-        "google/apiclient-services": "^0.11",
+        "google/apiclient-services": "dev-master",
         "firebase/php-jwt": "~2.0|~3.0|~4.0",
         "monolog/monolog": "^1.17",
         "phpseclib/phpseclib": "~0.3.10|~2.0",
@@ -22,6 +22,16 @@
         "symfony/css-selector": "~2.1",
         "cache/filesystem-adapter": "^0.3.2"
     },
+    "repositories" : [
+        {
+            "type" : "vcs",
+            "url" : "git@github.com:drslump/Protobuf-PHP.git"
+        },
+        {
+            "type" : "vcs",
+            "url" : "git@github.com:wakecent/google-api-php-client-services.git"
+        }
+    ],
     "suggest": {
         "cache/filesystem-adapter": "For caching certs and tokens (using Google_Client::setCache)"
     },
