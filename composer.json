@@ -1,5 +1,5 @@
 {
-    "name": "google/apiclient-wakecent",
+    "name": "wakecent/apiclient",
     "type": "library",
     "description": "Client library for Google APIs",
     "keywords": ["google"],
